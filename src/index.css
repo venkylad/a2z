@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-class {
+  @apply w-full border-2 border-blue-400 p-2 rounded-md font-medium text-base outline-none focus:border-blue-600;
+}
